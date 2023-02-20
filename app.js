@@ -1,11 +1,9 @@
 // Get all form sections
 const sections = document.querySelectorAll('.flex');
-
 // Get navigation buttons
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
 const submitBtn = document.querySelector('#submitBtn');
-
 // Keep track of current section
 let currentSection = 0;
 
